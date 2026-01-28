@@ -57,3 +57,19 @@ const { make, model } = car;
 
 console.log(make);
 console.log(model);
+
+// ! Exercise 4:
+// A. Duplicate the provided `morePizzaToppings` array using the spread
+//    operator and assign it to a variable named `uncontroversialPizzaToppings`.
+//
+// B. Console log the `uncontroversialPizzaToppings` variable.
+//
+// Starting code (don't modify this):
+
+const morePizzaToppings = ["Cheese", "Sauce"];
+
+// Your code here:
+
+const uncontroversialPizzaToppings = [...morePizzaToppings];
+
+console.log(uncontroversialPizzaToppings);

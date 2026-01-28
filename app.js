@@ -122,3 +122,25 @@ const userProfile = {
 console.log(userProfile);
 
 // Exercise 7 Done!!
+
+// ! Exercise 8:
+// A. Create a function with two parameters, `noun` and `adjective`.
+//
+// B. Give `noun` a default value of "cat" and `adjective` a default value of
+//    "orange".
+//
+// C. The function should log a sentence 'The cat is orange.' by default, but
+//    should substitute the appropriate parameters when it is supplied with
+//    arguments.
+//
+// Your code here:
+
+function describeAnimal(noun = "cat", adjective = "orange") {
+  console.log(`The ${noun} is ${adjective}.`);
+}
+
+// Call the function to see the default values:
+describeAnimal();
+
+// Call the function with custom arguments:
+describeAnimal("dog", "brown");

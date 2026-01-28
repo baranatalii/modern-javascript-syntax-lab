@@ -161,3 +161,34 @@ const pizza = "tasty";
 // Your code here:
 
 pizza === "tasty" ? console.log("yum") : console.log("yuck");
+
+// ! Exercise 10:
+// ! 10.1: Set language
+// A. Construct a single line of code that assigns a default value using the
+//    logical OR operator. This line should match the logic of the following
+//    statement:
+//
+//    "lang is equal to localLangConfig or the default value of English."
+//
+// B. Create a variable called `lang`.
+//
+// C. Assign `lang` the value of localLangConfig or 'en' as a default if
+//    `localLangConfig is falsy.
+//
+// D. Log the value of `lang` to the console.
+//
+// Your code here (localLangConfig is provided to get you started):
+
+// Simulated language configuration (change this variable to test)
+const localLangConfig = null; // Change to 'es', 'fr', etc., or leave it `null`.
+
+const lang = localLangConfig || "en";
+
+console.log("Language:", lang);
+
+const savedUserTheme = null;
+
+// Your code here:
+const theme = savedUserTheme || "light";
+
+console.log("Theme:", theme);
